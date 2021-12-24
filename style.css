@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+body {
+    font-family: 'Special Elite', cursive;
+    background-color: burlywood;
+    text-align: center;
+    border: 4px solid black;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.heading {
+    background-color: white;
+    font-family: 'Special Elite', cursive;
+    font-size: 30px;
+    width: 450px;
+    margin-left: 800px;
+    margin-top: 25px;
+    border-radius: 8px;
+    border: 4px solid black;
+}
+
+.heading img {
+    width: 100px;
+    margin-left: 15px;
+}
+
+.cam-div {
+    padding: 10px;
+    margin-top: 35px;
+    border-radius: 8px;
+}
+
+.cam-div label {
+    background: white;
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 0px;
+    box-shadow: 5px 5px 18px grey;
+}
+
+#live-cam, #snappedImg {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    margin-bottom: 0px;
+    box-shadow: 5px 5px 18px grey;
+    border: 3px solid white;
+}
+
+.cam-div button {
+    margin-top: 10px;
+    width: 300px;
+    font-size: 20px;
+    background-color: goldenrod;
+    border: 2px solid black;
+}
+
+.cam-div button:hover {
+    box-shadow: 5px 5px 18px grey;
+}
+
+.footer_div {
+    margin-bottom: 50px;
+    text-align: left;
+    margin-left: 310px;
+}
+
+.footer_div h4 {
+    background: bisque;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 5px 5px 18px grey;
+}
+
+.footer_div img {
+    width: 70px;
+    height: 70px;
+}
+
+.copyright_footer {
+    position: fixed;
+    color: white;
+    background-color: black;
+    bottom: 0;
+    width: 100%;
+    line-height: 3;
+    text-align: center;
+}
